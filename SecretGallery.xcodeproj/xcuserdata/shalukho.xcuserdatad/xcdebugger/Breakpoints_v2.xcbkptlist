@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A226C6BE-13FF-4414-A2B7-A1D6BC5F976E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PhotoCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - 36d7af1ca4474de0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.photo.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - 940d5262edc1219c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.photo.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - 9a61e6854ca3ea79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.photo.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - b263a50103100f37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.photo.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - 2030de0011f88e5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.init(frame: __C.CGRect) -&gt; SecretGallery.PhotoCollectionViewCell"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "105C4D49-003E-4A8A-BE83-B9C4D75F52FE - 7787357235754eb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretGallery.PhotoCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SecretGallery.PhotoCollectionViewCell&gt;"
+                  moduleName = "SecretGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shalukho/xcode/SecretGallery/SecretGallery/ViewControllers/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6EA3681-B73E-48A1-AB22-F76E7ED2499B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretGallery/ViewControllers/StartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "704A8983-8C06-4CFA-95A0-543EF51278FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretGallery/ViewControllers/StartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
