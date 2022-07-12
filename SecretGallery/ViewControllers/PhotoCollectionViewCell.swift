@@ -16,5 +16,8 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    func setup(for image: UIImage) {
+        self.photo.image = image
+        self.photo.contentMode = .scaleAspectFill
+    }
 }
