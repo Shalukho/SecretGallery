@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You secret gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGs-c1-F0z">
-                                <rect key="frame" x="82" y="194" width="250" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your secret gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGs-c1-F0z">
+                                <rect key="frame" x="76.5" y="194" width="261" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="iKl-q1-NJB"/>
                                     <constraint firstAttribute="height" constant="40" id="yvR-gm-RDr"/>
@@ -169,7 +169,21 @@
                             <constraint firstItem="Uxm-ea-UPw" firstAttribute="trailing" secondItem="m6e-rD-105" secondAttribute="trailing" id="ufn-uc-3dN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Photos" id="wYx-s6-q2A"/>
+                    <navigationItem key="navigationItem" title="Photos" id="wYx-s6-q2A">
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="bMQ-5v-dZu">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="qAW-LD-JQV">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="">
+                                    <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addPhoto:" destination="JbO-OG-NyT" eventType="touchUpInside" id="bgi-vm-fbw"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Uxm-ea-UPw" id="uUE-QA-NXK"/>
                     </connections>
@@ -180,6 +194,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
